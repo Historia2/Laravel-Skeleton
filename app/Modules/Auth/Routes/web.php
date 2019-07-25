@@ -11,8 +11,6 @@
 |
 */
 
-Route::group(['prefix' => 'auth'], function () {
-    Route::get('/', function () {
-        dd('This is the Auth module index page. Build something great!');
-    });
+Route::group(['prefix' => 'auth','as'=>'auth.'], function () {
+    Route::get('/login','AuthController@index')->name('login');
 });
