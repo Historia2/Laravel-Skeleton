@@ -1,4 +1,4 @@
-# Laravel Skeleton
+# Laravel Skeleton (WIP)
 ##### by Tandang / Historia
 
 This laravel starter pack created to boost your project.
